@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of ARA", "The Adventure of ARA.csproj", "{26E478F4-EED1-AF09-1B32-6CD1D38EACCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of ARA.Plugins", "The Adventure of ARA.Plugins.csproj", "{1B008966-E77A-4BD0-E60F-7BCCD46467DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of ARA.Editor.Plugins", "The Adventure of ARA.Editor.Plugins.csproj", "{4041483E-3110-49CA-C4FF-AD09DA703702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Adventure of ARA.Editor", "The Adventure of ARA.Editor.csproj", "{46EA173F-EB3C-D929-2170-B7D59AC207A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E478F4-EED1-AF09-1B32-6CD1D38EACCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E478F4-EED1-AF09-1B32-6CD1D38EACCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E478F4-EED1-AF09-1B32-6CD1D38EACCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E478F4-EED1-AF09-1B32-6CD1D38EACCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B008966-E77A-4BD0-E60F-7BCCD46467DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B008966-E77A-4BD0-E60F-7BCCD46467DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B008966-E77A-4BD0-E60F-7BCCD46467DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B008966-E77A-4BD0-E60F-7BCCD46467DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4041483E-3110-49CA-C4FF-AD09DA703702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4041483E-3110-49CA-C4FF-AD09DA703702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4041483E-3110-49CA-C4FF-AD09DA703702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4041483E-3110-49CA-C4FF-AD09DA703702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EA173F-EB3C-D929-2170-B7D59AC207A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EA173F-EB3C-D929-2170-B7D59AC207A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EA173F-EB3C-D929-2170-B7D59AC207A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EA173F-EB3C-D929-2170-B7D59AC207A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Checkpoint.png" width="891" height="1547" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Checkpoint_shadow.png" width="865" height="66" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Check_point">
+        <animation id="0" name="Check" length="1500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="748">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Checkpoint">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-445.555556" y="1930"/>
+                </key>
+                <key id="1" time="748" spin="0">
+                    <object folder="0" file="0" x="-427.373737" y="1693.636364"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Checkpoint_shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-424.444444" y="40"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

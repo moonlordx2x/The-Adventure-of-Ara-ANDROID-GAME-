@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Virus_Body.png" width="951" height="1016" pivot_x="0.435484" pivot_y="0.400862"/>
+        <file id="1" name="Virus_Shadow.png" width="1108" height="59" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Virus_Ring.png" width="1472" height="1473" pivot_x="0.50108" pivot_y="0.482759"/>
+        <file id="3" name="Virus_Spike.png" width="1225" height="1224" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Virus">
+        <obj_info name="bone_000" type="bone" w="640.759" h="10"/>
+        <animation id="0" name="Attack" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="2" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="3" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="198">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                </key>
+                <key id="2" time="498">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="2" z_index="2"/>
+                </key>
+                <key id="3" time="799">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="3" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Virus_Body">
+                <key id="0" spin="-1">
+                    <object folder="0" file="0" x="-11.079537" y="33.369808" pivot_x="0.468426" pivot_y="0.463525" angle="2.652056"/>
+                </key>
+                <key id="1" time="198" spin="0">
+                    <object folder="0" file="0" x="-11.079537" y="33.369808" pivot_x="0.468426" pivot_y="0.463525" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="0" file="0" x="22.253796" y="33.369808" pivot_x="0.468426" pivot_y="0.463525" angle="0"/>
+                </key>
+                <key id="3" time="799">
+                    <object folder="0" file="0" x="-52.746204" y="37.536475" pivot_x="0.468426" pivot_y="0.463525" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Virus_Ring">
+                <key id="0" time="198" spin="-1">
+                    <object folder="0" file="2" x="18.521824" y="22.259863" pivot_x="0.529025" pivot_y="0.475807" angle="313.881967"/>
+                </key>
+                <key id="1" time="498" spin="-1">
+                    <object folder="0" file="2" x="18.521824" y="113.92653" pivot_x="0.529025" pivot_y="0.475807" angle="135.93804"/>
+                </key>
+                <key id="2" time="799" spin="-1">
+                    <object folder="0" file="2" x="47.688491" y="34.759863" pivot_x="0.529025" pivot_y="0.475807" angle="357.601687"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Virus_Shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-537.5" y="-679.166667" angle="0"/>
+                </key>
+                <key id="1" time="198" spin="0">
+                    <object folder="0" file="1" x="-537.5" y="-679.166667" angle="0"/>
+                </key>
+                <key id="2" time="498" spin="0">
+                    <object folder="0" file="1" x="-537.5" y="-679.166667" angle="0"/>
+                </key>
+                <key id="3" time="799" spin="0">
+                    <object folder="0" file="1" x="-537.5" y="-679.166667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Virus_Spike_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="3.448444" y="-30.979168" pivot_x="0.499832" pivot_y="0.444686" angle="2.509336"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="IDLE" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <bone_ref id="0" timeline="3" key="0"/>
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="0" z_index="2"/>
+                </key>
+                <key id="1" time="501">
+                    <bone_ref id="0" timeline="3" key="1"/>
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" parent="0" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" parent="0" timeline="2" key="0" z_index="2"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Virus_Shadow">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-537.5" y="-679.166667" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Virus_Body_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="263.614085" y="29.11836" angle="265.914383"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Virus_Spike">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="978.717628" y="551.235328" angle="265.914383"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="0" name="bone_000" object_type="bone">
+                <key id="0" spin="0">
+                    <bone x="-10.869565" y="-295.652174" angle="94.085617"/>
+                </key>
+                <key id="1" time="501" spin="0">
+                    <bone x="-15.217391" y="-213.043478" angle="94.085617"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
